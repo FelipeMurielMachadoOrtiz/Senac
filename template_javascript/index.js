@@ -20,3 +20,15 @@ let p = prompt("Quantas horas você trabalha por dia?")
 let t = prompt("Quanto você recebe por dia?")
 alert(`Voce recebe ${t/p} por hora`)
 */
+/*
+let nome
+let idade 
+console.log(typeof nome, idade)// pq nao atribui um valor para a váriavel
+*/
+
+let nome = 'Felipe,'
+let idade = 16
+console.log(typeof nome, idade)/* a váriavel nome é do tipo string, pq eu atribui uma escita.
+                                a váriavel idade é do tipo number, pq o valor de atribuição é um número.*/
+
+console.log('olá', nome, "você tem",idade,"anos.")
