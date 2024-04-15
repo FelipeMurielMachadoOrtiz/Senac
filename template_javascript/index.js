@@ -1,34 +1,22 @@
-/*
-const primeironome = 'Felipe.';
-const sobrenome = 'Ortiz.';
-const idade = 15;
-const estudande = 'Sim.';
-const partido = 'PT/Comunista.'
-console.log('Meu primeiro nome é:',primeironome,'Meu sobrenome é:', sobrenome,'Minha idade é:', idade,'anos',
-'Estudante:',estudande, 'Meu partido é:',partido);
-console.log('E sim eu faço o L')
-*/
-/*
-let nome = prompt('qual é seu nome?')
-let sobrenome = prompt('qual é seu sobrenome?')
-let idade = prompt('qual é sua idade?')
-alert(`seu nome é ${nome} seu sobrenome é ${sobrenome} sua idade é ${idade}`)
-*/
-
-/*
-let p = prompt("Quantas horas você trabalha por dia?")
-let t = prompt("Quanto você recebe por dia?")
-alert(`Voce recebe ${t/p} por hora`)
-*/
-/*
-let nome
-let idade 
-console.log(typeof nome, idade)// pq nao atribui um valor para a váriavel
-*/
-
-let nome = 'Felipe,'
-let idade = 16
-console.log(typeof nome, idade)/* a váriavel nome é do tipo string, pq eu atribui uma escita.
-                                a váriavel idade é do tipo number, pq o valor de atribuição é um número.*/
-
-console.log('olá', nome, "você tem",idade,"anos.")
+//Recebeu as variaveis
+let nome = prompt('Digite seu nome:')
+let idade = prompt('Digite sua idade:')
+let horasTrabalho = prompt("digite as horas que voce trabalho por dia:")
+let salarioDia = prompt('Digite o seu salario diario:')
+//verificando as variaveis
+console.log(typeof nome)
+console.log(typeof horasTrabalho)
+console.log(typeof salarioDia)
+//convertendo o que e necessario
+let horasTrabNumber = Number(horasTrabalho)
+let salDiaNumber = Number(salarioDia)
+//processando valores
+let valorHoraNumber = horasTrabNumber/salDiaNumber 
+let valorHora = String(valorHoraNumber)
+const mensagem = "Seu Valor Hora é:" + valorHora + '!!!'
+//verificando as variaveis
+console.log(typeof valorHora)
+console.log(typeof mensagem)
+console.log(mensagem)
+//saida de valores para front end
+alert(mensagem)
