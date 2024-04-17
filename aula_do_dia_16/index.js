@@ -46,4 +46,5 @@ let idade2050
 idade2050= 2050 - anoNascimento
 alert(idade2050)
 
-console.log("Oi!!" , "Meu nome é " , nome, "e eu tenho", idade, "anos" , "eu sou maior de idade" , maiorIdade, "e em 2050, terei", idade2050, "anos")
+console.log("Oi!!" , "Meu nome é " , nome, "e eu tenho", idade, "anos" , 
+"eu sou maior de idade" , maiorIdade, "e em 2050, terei", idade2050, "anos")
