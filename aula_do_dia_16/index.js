@@ -1,4 +1,3 @@
-
 //DECLARAÇAO DAS VARIAVEIS
 let nome 
 let idade 
