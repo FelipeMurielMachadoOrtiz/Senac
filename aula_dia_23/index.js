@@ -79,7 +79,7 @@ console.log("O preço da fruta ", fruta, " é ", "R$ ", preco)
 //O preço da fruta maçã  é R$2.25
 //O preço da fruta pêra é R$5*/
 
-const numero = Number(prompt("Digite o primeiro número."))
+/*const numero = Number(prompt("Digite o primeiro número."))
 
 if(numero > 0) {
   console.log("Esse número passou no teste")
@@ -89,4 +89,50 @@ if(numero > 0) {
 console.log(mensagem)
 //está pedindo para que digite um número do tipo number 
 //esse número passou no teste.vai dá erro(nao vai aparecer nada)
-//eu creio que havera um erro pq nao vai compreender o let
+//eu creio que havera um erro pq nao vai compreender o let*/
+
+/*let idade = Number(prompt("Qual e a sua idade?"))
+
+if (idade >= 18) {
+  alert("voce pode dirgir.")
+}else {
+  alert("voce nao pode dirigir.")
+}*/
+
+/*let turno = prompt("Qual turno do  dia voce estuda? Digite M para matutuino, V para vespertino ou N para noturno")
+
+if (turno === "M") {
+alert("Bom Dia!")
+}else if (turno === "V") {
+  alert("Boa Tarde!")
+}else if (turno === "N"){
+  alert("Boa Noite!")
+}else  {
+  alert("Nem estuda o vagabundo!!!")
+}*/
+
+/*let turno = prompt("Qual turno do  dia voce estuda? Digite M para matutuino, V para vespertino ou N para noturno")
+
+switch(turno){
+  case "M":
+    alert("Bom Dia!")
+    break
+  case "V":
+    alert("Boa Tarde!")
+    break
+  case "N":
+    alert("Boa Noite!")
+    break
+    default:
+      alert("Nem estuda o vagabundo!!!")
+
+}*/
+
+/*let generoDoFilme = prompt("Qual genero do filme que voces vao assistir?")
+let precoDoIngresso = Number(prompt("Qual o preco do ingresso?"))
+
+if (generoDoFilme === "fantasia" && precoDoIngresso < 15){
+  alert("Bom filme!")
+}else {
+  alert("Perdao, mas escolha outro filme!")
+}*/
