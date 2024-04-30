@@ -20,13 +20,14 @@ function imprimeMenu() {
   function cadastrarDoador(){ 
   const doadores = []; 
   let numeroDoadores = 1;
-    for (let i = 0; i < numeroDoadores; i++) {;
+    for (let i = 0; i < numeroDoadores; i++) {
         const nome = prompt(`Digite o nome do doador: `);
         const idade = parseInt(prompt( `Digite a idade do doador ${nome}: `));
         const peso = parseFloat(prompt( `Digite o peso do doador ${nome}: `));
         const tipoSanguineo = prompt( `Digite o tipo sanguíneo do doador ${nome}: `);
         const ultimaDoacao = prompt( `Digite a última data de doação do doador ${nome} (Formato: DD/MM/AAAA): `);
-        doadores.push(cadastrarDoador);
+
+        doadores.push({nome, idade, peso, tipoSanguineo, ultimaDoacao});
     }
   }
   // Array de doadores pré-existentes
@@ -106,8 +107,6 @@ function imprimeMenu() {
     };
 
  };
-
-
   
   // Esta função representa o menu principal do programa
   function menu() {
