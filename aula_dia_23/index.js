@@ -86,10 +86,14 @@ if(numero > 0) {
 	let mensagem = "Essa mensagem é secreta!!!"
 }
 
-console.log(mensagem)
+console.log(mensagem)*/
 //está pedindo para que digite um número do tipo number 
 //esse número passou no teste.vai dá erro(nao vai aparecer nada)
+<<<<<<< HEAD
 //eu creio que havera um erro pq nao vai compreender o let*/
+=======
+//eu creio que havera um erro pq nao vai compreender o let
+>>>>>>> 574a886d8e86aa36da08cf5a8394e1946e1e3d34
 
 /*let idade = Number(prompt("Qual e a sua idade?"))
 
