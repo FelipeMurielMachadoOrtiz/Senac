@@ -17,8 +17,7 @@ function imprimeMenu() {
   }
 
   // Esta função permite ao usuário cadastrar um novo doador
-  function cadastrarDoador(){ 
-  const doadores = []; 
+  function cadastrarDoador(){  
   let numeroDoadores = 1;
     for (let i = 0; i < numeroDoadores; i++) {
         const nome = prompt(`Digite o nome do doador: `);
@@ -28,7 +27,7 @@ function imprimeMenu() {
         const ultimaDoacao = prompt( `Digite a última data de doação do doador ${nome} (Formato: DD/MM/AAAA): `);
 
         doadores.push({nome, idade, peso, tipoSanguineo, ultimaDoacao});
-    }
+    } 
   }
   // Array de doadores pré-existentes
   let doadores = [
